@@ -1,0 +1,80 @@
+﻿@model OnlineExamApp.ViewModels.QuestionView
+
+@{
+    ViewData["Title"] = "CreateQuestion";
+}
+
+<h1>CreateQuestion</h1>
+
+<h4>QuestionView</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateQuestion">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="@Model.questions.QuestionName" class="control-label"></label>
+                <input asp-for="@Model.questions.QuestionName" class="form-control" />
+                <span asp-validation-for="@Model.questions.QuestionName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.questions.Option1" class="control-label"></label>
+                <input asp-for="@Model.questions.Option1" class="form-control" />
+                <span asp-validation-for="@Model.questions.Option1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.questions.Option2" class="control-label"></label>
+                <input asp-for="@Model.questions.Option2" class="form-control" />
+                <span asp-validation-for="@Model.questions.Option2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.questions.Option3" class="control-label"></label>
+                <input asp-for="@Model.questions.Option3" class="form-control" />
+                <span asp-validation-for="@Model.questions.Option3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.questions.Option4" class="control-label"></label>
+                <input asp-for="@Model.questions.Option4" class="form-control" />
+                <span asp-validation-for="@Model.questions.Option4" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.questions.CorrectAnswer" class="control-label"></label>
+                <input asp-for="@Model.questions.CorrectAnswer" class="form-control" />
+                <span asp-validation-for="@Model.questions.CorrectAnswer" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.questions.QuestionBankId" class="control-label"></label>
+                <select asp-for="@Model.questions.QuestionBankId" class="form-control">
+                    <option value="">-- Select Question Bank --</option>
+                    @for (int i = 0; i < @Model.qbIds.Count; i++)
+                    {
+                        <option value="@Model.qbIds[i]">@Model.qbNames[i]</option>
+                    }
+                </select>
+                <span asp-validation-for="@Model.questions.QuestionBankId" class="text-danger"></span>
+            </div><br/>
+
+            <div class="form-group">
+                <input type="submit" onclick="Create()"value="Create" class="btn btn-outline-success" />
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function Create(){
+        alert("Question Created Successfully!")
+    }
+</script>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

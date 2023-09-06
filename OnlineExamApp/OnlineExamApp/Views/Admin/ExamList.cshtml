@@ -1,0 +1,62 @@
+﻿@model IEnumerable<OnlineExamApp.Models.Exam>
+
+@{
+    ViewData["Title"] = "ExamList";
+}
+
+<h1 align="center">ExamList</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ExamId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExamName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Exam_StartDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Exam_EndDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Exam_Duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuestionBankId)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExamId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExamName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Exam_StartDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Exam_EndDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Exam_Duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuestionBankId)
+            </td>
+          @*  <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>

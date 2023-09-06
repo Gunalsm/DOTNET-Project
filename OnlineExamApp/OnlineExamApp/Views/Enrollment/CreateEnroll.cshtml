@@ -1,0 +1,71 @@
+﻿@model OnlineExamApp.ViewModels.QuestionView
+
+@{
+    ViewData["Title"] = "CreateEnroll";
+}
+
+<h1>CreateEnroll</h1>
+
+<h4>QuestionView</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateEnroll">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                <label asp-for="EnrollmentId" class="control-label"></label>
+                <input asp-for="EnrollmentId" class="form-control" />
+                <span asp-validation-for="EnrollmentId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="@Model.enrollment.StudentName" class="control-label"></label>
+                <input asp-for="@Model.enrollment.StudentName" class="form-control" />
+                <span asp-validation-for="@Model.enrollment.StudentName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.enrollment.StudentEmail" class="control-label"></label>
+                <input asp-for="@Model.enrollment.StudentEmail" class="form-control" />
+                <span asp-validation-for="@Model.enrollment.StudentEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.enrollment.ExamId" class="control-label"></label>
+                <select asp-for="@Model.enrollment.ExamId" class="form-control">
+                    <option value="">-- Select Exam --</option>
+                    @for (int i = 0; i < @Model.ExIds.Count; i++)
+                    {
+                        <option value="@Model.ExIds[i]">@Model.ExNames[i]</option>
+                    }
+                </select>
+                <span asp-validation-for="@Model.enrollment.ExamId" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="ExamId" class="control-label"></label>
+                <input asp-for="ExamId" class="form-control" />
+                <span asp-validation-for="ExamId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@*<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateEnroll">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+*@
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

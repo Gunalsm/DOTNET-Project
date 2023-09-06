@@ -1,0 +1,42 @@
+﻿@model IEnumerable<OnlineExamApp.Models.QuestionBank>
+
+@{
+    ViewData["Title"] = "GetQuestionBanks";
+}
+
+<h1>GetQuestionBanks</h1>
+
+<p>
+    <a asp-action="CreateQuestionBank">Create New QuestionBank</a><br />
+</p>
+<p>
+    <a asp-controller="Exam" asp-action="CreateExam">Create New Exam</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.QuestionBankId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuestionBankName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuestionBankId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuestionBankName)
+            </td>
+            <td>
+               <a asp-controller="Question" asp-action="CreateQuestion">Add Questions</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

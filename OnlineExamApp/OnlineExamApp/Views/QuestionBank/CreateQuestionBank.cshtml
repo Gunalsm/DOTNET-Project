@@ -1,0 +1,38 @@
+﻿@model OnlineExamApp.Models.QuestionBank
+
+@{
+    ViewData["Title"] = "CreateQuestionBank";
+}
+
+<h1 >QuestionBanks</h1>
+
+<h4>QuestionBank</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateQuestionBank">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="QuestionBankName" class="control-label"></label>
+                <input asp-for="QuestionBankName" class="form-control" />
+                <span asp-validation-for="QuestionBankName" class="text-danger"></span>
+            </div><br/>
+            <div class="form-group">
+                <input type="submit" onclick="Create()"value="Create" class="btn btn-outline-success" />
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function Create(){
+        alert("QuestionBank Created Sucessfully!")
+    }
+</script>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

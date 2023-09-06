@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PaperSetter_MicroService.props" />
+</Project>

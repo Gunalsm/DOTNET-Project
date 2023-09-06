@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dsVZK/7uXd0iQagnC5YKfwZk1KNCRt0bfyxFehnFXHI=",
+  "Source": "Admin_Microservice",
+  "BasePath": "_content/Admin_Microservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

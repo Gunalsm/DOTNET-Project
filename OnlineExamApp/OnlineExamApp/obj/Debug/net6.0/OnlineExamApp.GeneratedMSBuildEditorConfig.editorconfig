@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineExamApp
+build_property.RootNamespace = OnlineExamApp
+build_property.ProjectDir = C:\Users\gunalan.s\source\repos\OnlineExamApp\OnlineExamApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gunalan.s\source\repos\OnlineExamApp\OnlineExamApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/AdminLogin/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Mb2dpblxBZG1pbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Admin/ExamList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXhhbUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Admin/QuestionBankList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUXVlc3Rpb25CYW5rTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Admin/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Enrollment/CreateEnroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxDcmVhdGVFbnJvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Enrollment/GetAllEnroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRBbGxFbnJvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Enrollment/GetAllEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRBbGxFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Enrollment/GetAllExamList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRBbGxFeGFtTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Exam/CreateExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGVFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Exam/CreateView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Exam/GetAllExams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxHZXRBbGxFeGFtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Home/AdminView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Home/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/PaperSetterList/SetterList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJTZXR0ZXJMaXN0XFNldHRlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/PaperSetterLogin/LoginPaperSetter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJTZXR0ZXJMb2dpblxMb2dpblBhcGVyU2V0dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/PaperSetterRegister/PostPaperSetter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFwZXJTZXR0ZXJSZWdpc3RlclxQb3N0UGFwZXJTZXR0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/QuestionBank/CreateQuestionBank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25CYW5rXENyZWF0ZVF1ZXN0aW9uQmFuay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/QuestionBank/GetQuestionBanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25CYW5rXEdldFF1ZXN0aW9uQmFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Question/CreateQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cQ3JlYXRlUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/StartTest/GetQuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRUZXN0XEdldFF1ZXN0aW9uTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/StudentLogin/LoginStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudExvZ2luXExvZ2luU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/StudentRegister/PostStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlZ2lzdGVyXFBvc3RTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Student/DisplayAllExams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEaXNwbGF5QWxsRXhhbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gunalan.s/source/repos/OnlineExamApp/OnlineExamApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xvwhcixatg
